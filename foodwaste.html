@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn About Food Waste</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo-box" onclick="openHome()">
+            <h1 style="color: #5F5878;">Sur</h1>
+            <h1 style="color: #6398C3;">Food</h1>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="stores.php">Order Now</a></li>
+            <li><a href="about.html">Get to Know Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="foodwaste.html">Learn About Food Waste</a></li>
+         </ul>
+
+        <div class="nav-icons">
+            <div class="hamburger">
+                <i class="fa-solid fa-bars" style="color: #b93f80;" onclick="openNav()"></i>
+            </div>
+
+            <div class="cart-profile">
+                <i class="fa-solid fa-cart-shopping" id="nav-cart" style="color: #b93f80;" onclick="openCart()"></i>
+                <i class="fa-solid fa-user" id="nav-user" style="color: #576E78;" onclick="openUser()"></i>
+            </div>
+        </div>
+    </nav>
+
+    
+    <script>
+      function openCart(){
+        location.href="openCart.php";
+      }
+
+      function openUser(){
+        location.href="openUser.php";
+      }
+
+      function openHome(){
+        location.href="index.php";
+      }
+    </script>
+
+
+    <section class = "header">
+        <div class = "collage">
+            <img src="imgs/Foodwaste_Header.png" alt="Helping through surfood" class="header">
+        </div>
+    </section>
+
+    <section class = "About">
+        <div class = "Global">
+            <h1><b>Why does it matter?</b></h1>
+            <p>Approximately one-third of all food produced worldwide, equivalent to about 1.3 billion metric tons, is wasted annually. 
+               This wastage occurs throughout the entire food supply chain, from production and processing to distribution and consumption. 
+               The vision of SurFood is to turn these numbers into opportunities for the companies to turn their loss into profit, and for low income families to avail food at a lower price.</p>
+        </div>
+    </section>
+
+    <section class = "Global-box">
+        <div class = "how">
+            <h1><b>Global Food waste</b></h1>
+            <p>
+                The UN Food and Agriculture Organization (FAO) estimates that over 33 percent of the world's food production is lost or wasted annually. 
+                Food Navigator's data highlights that Asia accounts for 50% of global food waste, with half of this waste originating from South and Southeast Asia. 
+                This significant amount of food waste contributes to emissions losses through multiple channels, including the release of methane and CO2 during food decomposition, as well as wasted emissions during transportation and production processes. 
+                Even the disposal of leftovers from individual kitchens plays a role in exacerbating the issue.
+            </p>
+        </div>
+        <div class = "picture">
+            <img src="imgs/foodwaste.jpg" alt="Food waste a global crisis">
+        </div>
+    </section>
+
+    <section class = "About">
+        <div class = "Environmental">
+            <h1><b>Environmental Impact</b></h1>
+            <p>Food waste contributes to environmental degradation. When food decomposes in landfills, 
+               it produces methane, a potent greenhouse gas that contributes to climate change. Moreover,
+               food waste squanders valuable natural resources like water, energy, and land that were used in
+               its production. <br><br>
+               By reducing food waste and the associated resource consumption, the Surfood project helps mitigate environmental impacts. 
+               It promotes sustainable consumption practices by redirecting surplus food into the market, reducing the need for additional production and the associated environmental footprint. 
+               This contributes to the conservation of biodiversity, preservation of ecosystems, and reduction of carbon emissions.
+            </p>
+        </div>
+    </section>
+
+    <section class = "Environmental-box">
+        <div class = "how">
+            <h1><b>Greenhouse Gas Emissions</b></h1>
+            <p>
+                When food is wasted, we squander not only the food itself but also the energy and water resources invested in its growth, harvesting, transportation, and packaging. 
+                Furthermore, when discarded food ends up in landfills and decomposes, it emits methane, a greenhouse gas even more potent than carbon dioxide. 
+                If we were to cease wasting food, approximately 6%-8% of all human-caused greenhouse gas emissions could be mitigated. 
+                To put this into perspective, in the United States alone, the production of lost or wasted food generates greenhouse gas emissions equivalent to that of 32.6 million cars.
+            </p>
+        </div>
+        <div class = "picture">
+            <img class ="factory" src="imgs/greenhouse-gas.png" alt="Food waste a global crisis">
+        </div>
+    </section>
+
+    <section class = "About">
+        <div class = "Economic">
+            <h1><b>Economic Impact</b></h1>
+            <p>The economic cost of food waste is substantial. It is estimated to be around $1 trillion globally each year.
+                This includes expenses related to production, transportation, storage, and disposal of wasted food. <br><br>
+                The Surfood project offers financial benefits to both consumers and companies. 
+                Consumers can access surplus food items at discounted prices, potentially lowering their grocery bills and increasing their purchasing power. 
+                Companies, on the other hand, can recoup some of their costs by selling surplus inventory instead of incurring losses through disposal. 
+                This economic efficiency can have positive ripple effects within local economies.
+            </p>
+        </div>
+    </section>
+
+    <section class = "Economic-box">
+        <div class = "how">
+            <h1><b>Hunger and Food Insecurity</b></h1>
+            <p>
+                Wasted food necessitates energy, land, water, and labor throughout its lifecycle, en-compassing production, storage, harvesting, transportation, packaging, and sales. 
+                By discarding food, we are squandering valuable resources that could have been utilized to nourish people in need. 
+                With approximately 700 million individuals globally experiencing undernourishment, providing them with sufficient food would not only alleviate hunger but also contribute to GDP growth. 
+                Conversely, we currently waste around seven billion tons of food annually. Food waste occurs at various stages of production, distribution, and consumption. 
+                Notably, the percentage of food wastage is most significant in lower and upper-middle-income countries.
+            </p>
+        </div>
+        <div class = "picture">
+            <img class="hunger" src="imgs/hunger.png" alt="Food waste a global crisis">
+        </div>
+    </section>
+
+    <section class = "About">
+        <div class = "Contributors">
+            <h1><b>Contributors of Food wastes</b></h1>
+            <p>Several major contributors play a significant role in the generation of food waste throughout the food supply chain. 
+                Understanding these contributors is crucial in addressing this pressing issue and working towards more sustainable and efficient food systems. 
+                In this section, we will explore some of the key players responsible for food waste generation and their respective roles in the process. 
+                By identifying these contributors, we can better comprehend the challenges associated with food waste and develop effective strategies to combat it.
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <section class = "Household">
+        <div class = "Info">
+            <h1><b>Household Food wastes</b></h1>
+            <p>
+                Household food waste, which pertains to edible food discarded by individuals or families at home, constitutes a significant portion of the overall food waste issue. 
+                Although it may appear inconsequential at an individual level, the cumulative effect of household food waste is substantial. Numerous factors contribute to this waste. 
+                One prominent factor is inadequate meal planning and portion control, as individuals frequently acquire or prepare more food than necessary, leading to surplus that is ultimately wasted. 
+                Furthermore, a lack of awareness regarding proper food storage and preservation techniques can result in premature spoilage and the disposal of still-edible items.
+            </p>
+        </div>
+        <div class = "Picture">
+            <img class = "household-foodwaste" src="imgs/household-foodwaste.jpg" alt="Food waste a global crisis">
+
+        </div>
+    </section>
+
+    <section class = "FW-how-box">
+        <div class = "FW-how">
+            <h1><b>Retail and Hospitality sectors</b></h1>
+            <p>
+                The primary sources of food waste in developed countries such as the U.S. are supermarkets, restaurants, and consumers. 
+                Supermarkets contribute to food waste by promoting excessive purchases, maintaining excessive inventory, inaccurately estimating product shelf life, and mishandling products. <br><br>
+                Similarly, the hospitality industry, which includes restaurants, hotels, and other foodservice providers, also plays a significant role in food waste generation. 
+                In restaurants, wastage occurs due to leftover food on plates, excessive portion sizes, and inefficient kitchen practices. All-you-can-eat establishments and buffet setups often lead to unnecessary food preparation and subsequent disposal. Within hotels, events like banquets, room service, and breakfast buffets can result in substantial food waste if proper planning and portion control measures are not in place.
+            </p>
+        </div>
+    </section>
+
+    <section class = "FW-Join-box">
+        <div class = "FW-Join-Title">
+            <h1><b>Make a change</b></h1>
+            <p>Join us on a journey to uncover the truth about food waste and its impact on our world. Discover the staggering statistics, the environmental consequences, and the social implications associated with this global issue. 
+                Gain insights into practical solutions and innovative approaches that can help reduce food waste and create a more sustainable future. <br><br>
+                Please read the <a href="imgs/Surfood_TermsAndConditions.pdf" target ="_blank">Terms and Conditions</a> to ensure that you have a clear understanding of the expectations, rights, and responsibilities associated with joining.
+            </p>
+        </div>
+        <a href="contact.html">
+            <button class = "FW-Join-button">Join Now</button>
+        </a>
+    </section>
+
+    <div class="space"></div>
+
+    <footer>
+        <div class="footer-content">
+  
+          <div class="logo-container">
+            <div class="logo-box">
+              <h1 style="color: white;">Sur</h1>
+              <h1 style="color: #6398C3;">Food</h1>
+           </div>
+            <h3>Excess Resources Give <br> Endless Possibilities</h3>
+          </div>
+  
+          <div class="footer-row">
+            <ul>
+              <li class="contact">
+                <h3>CONTACT</h3>
+                <div class="container">
+                  <div class="contact-row">
+                    <div><i class="fa-solid fa-location-dot"></i></div>
+                    <p>Manila City, Philippines</p>
+                  </div>
+                  <div class="contact-row">
+                    <div><i class="fa-solid fa-phone"></i></div>
+                    <p>(042) 123-456</p>
+                  </div>
+                  <div class="contact-row">
+                    <div><i class="fa-solid fa-envelope"></i></div>
+                    <p>surfoodshop@gmail.com</p>
+                  </div>
+                </div>
+              </li>
+  
+              <li class="follow">
+                <h3>FOLLOW US</h3>
+                <div class="icons">
+                  <div><i class="fa-brands fa-twitter"></i></div>
+                  <div><i class="fa-brands fa-instagram"></i></div>
+                  <div><i class="fa-brands fa-facebook-f"></i></div>
+                </div>
+              </li>
+  
+            </ul>
+          </div>
+  
+        </div>
+        
+        <div class="copyright">
+          <h3>Copyright © 2023  SurFood. All rights reserved</h3>
+        </div>
+      </footer>
+</body>
+</html>
+

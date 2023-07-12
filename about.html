@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <div class="logo-box" onclick="openHome()">
+        <h1 style="color: #5F5878;">Sur</h1>
+        <h1 style="color: #6398C3;">Food</h1>
+    </div>
+    
+    <ul class="nav-links">
+        <li><a href="stores.php">Order Now</a></li>
+        <li><a href="about.html">Get to Know Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="foodwaste.html">Learn About Food Waste</a></li>
+     </ul>
+
+    <div class="nav-icons">
+        <div class="hamburger">
+            <i class="fa-solid fa-bars" style="color: #b93f80;" onclick="openNav()"></i>
+        </div>
+
+        <div class="cart-profile">
+            <i class="fa-solid fa-cart-shopping" id="nav-cart" style="color: #b93f80;" onclick="openCart()"></i>
+            <i class="fa-solid fa-user" id="nav-user" style="color: #576E78;" onclick="openUser()"></i>
+        </div>
+    </div>
+</nav>
+
+
+<script>
+  function openCart(){
+    location.href="openCart.php";
+  }
+
+  function openUser(){
+    location.href="openUser.php";
+  }
+
+  function openHome(){
+    location.href="index.php";
+  }
+</script>
+
+
+    <section class = "header">
+        <div class = "collage">
+            <img src="imgs/Heading.png" alt="Helping through surfood" class="header">
+        </div>
+    </section>
+
+    <section class = "intro">
+        <div class = "headline">
+            <h1><b>Every plate of leftovers discarded is a missed opportunity to nourish and sustain those in need.</b></h1>
+            <p>Our company made SurFood as an innovative e-commerce platform dedicated to
+                selling surplus products and goods sourced directly from suppliers, drawing
+                inspiration from the concept of dumpster diving. By utilizing SurFood, businesses
+                can significantly reduce their food waste footprint, while individuals can access
+                high-quality surplus goods at incredibly affordable prices.</p>
+        </div>
+    </section>
+
+    <section class = "Surf-box">
+        <div class = "Surf-Title">
+            <h1><b>Shop affordable goods</b></h1>
+            <p>Shop with us and experience the satisfaction of finding incredible
+                deals and bringing home foods you love, all at prices that make you
+                smile. Start saving while helping save the environment today!"</p>
+        </div>
+        <a href="index.php">
+          <button class = "Surf-button">Surf Now</button>
+        </a>
+    </section>
+
+    <section class = "how-box">
+        <div class = "how">
+            <h1><b>How we help?</b></h1>
+            <p>Through SurFood businesses can minimize the amount of food waste they produce
+                by allowing people to avail their surplus goods at a much lower price. <br><br>
+                In 2017, 2 million kilograms of food wastes were being produced daily in the capital
+                city of the Philippines alone in which restaurants and food businesses are the
+                second largest contributors next to households. <br><br>
+                Stores of partnered companies of SurFood nationwide, will be available in the
+                website in which consumers can purchase products that are 20% less than its
+                original price. 75 percent of the total revenue goes to the partnered companies
+                while the remaining percentage goes to SurFood.
+            </p>
+        </div>
+    </section>
+
+    <section class = "Join-box">
+        <div class = "Join-Title">
+            <h1><b>Be our partner</b></h1>
+            <p>We invite like-minded companies to join hands with us in our mission to
+                combat food waste and create a more sustainable future. Together, we can make a meaningful impact by transforming surplus
+                food into valuable resources and ensuring that no edible food goes to waste. <br><br>
+                Let's collaborate and redefine the way we handle food, while fostering
+                a greater sense of social responsibility. Partner with us and let's build a
+                brighter, waste-free tomorrow, one plate at a time. <br><br>
+                Please read the <a href="Surfood_TermsAndConditions.pdf" target ="_blank">Terms and Conditions</a> and <a href="privacyPolicy.html" target ="_blank"> Privacy Policy</a> to ensure that you have a clear understanding of the expectations, rights, and responsibilities associated with joining.
+            </p>
+        </div>
+        <a href="contact.html">
+          <button class = "Join-button">Join Now</button>
+        </a>
+    </section>
+
+    <div class="space"></div>
+
+    <footer>
+      <div class="footer-content">
+
+        <div class="logo-container">
+          <div class="logo-box">
+            <h1 style="color: white;">Sur</h1>
+            <h1 style="color: #6398C3;">Food</h1>
+         </div>
+          <h3>Excess Resources Give <br> Endless Possibilities</h3>
+        </div>
+
+        <div class="footer-row">
+          <ul>
+            <li class="contact">
+              <h3>CONTACT</h3>
+              <div class="container">
+                <div class="contact-row">
+                  <div><i class="fa-solid fa-location-dot"></i></div>
+                  <p>Manila City, Philippines</p>
+                </div>
+                <div class="contact-row">
+                  <div><i class="fa-solid fa-phone"></i></div>
+                  <p>(042) 123-456</p>
+                </div>
+                <div class="contact-row">
+                  <div><i class="fa-solid fa-envelope"></i></div>
+                  <p>surfoodshop@gmail.com</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="follow">
+              <h3>FOLLOW US</h3>
+              <div class="icons">
+                <div><i class="fa-brands fa-twitter"></i></div>
+                <div><i class="fa-brands fa-instagram"></i></div>
+                <div><i class="fa-brands fa-facebook-f"></i></div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+      
+      <div class="copyright">
+        <h3>Copyright © 2023  SurFood. All rights reserved</h3>
+      </div>
+    </footer>
+
+</body>
+</html>
+

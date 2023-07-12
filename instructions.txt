@@ -1,0 +1,29 @@
+Instructions for deploying the website in localhost.
+
+-Download and Install Xampp.
+-Import the Surfood.sql database in your phpmyadmin account.
+-Open Xampp then start apache and MySQL.
+-Open localhost in your browser.
+
+
+
+For sign in:
+
+Buyer Account:
+email: juandelacruz@gmail.com
+password: dLV07@MGSxh2
+ 
+Seller Account:
+emails: 
+seveneleven@gmail.com
+unclejohns@gmail.com
+goldilocks@gmail.com
+breadtalk@gmail.com
+juliesbakeshop@gmail.com
+pandemanila@gmail.com
+starbucks@gmail.com
+dunkindonuts@gmail.com
+marygrace@gmail.com
+ribonnettes@gmail.com
+
+password: dLV07@MGSxh2
